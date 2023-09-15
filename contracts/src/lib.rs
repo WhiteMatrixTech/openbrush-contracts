@@ -58,6 +58,7 @@ pub use token::psp37;
 #[cfg(feature = "diamond")]
 pub use upgradeability::diamond;
 #[cfg(feature = "proxy")]
+#[deprecated]
 pub use upgradeability::proxy;
 #[cfg(feature = "upgradeable")]
 pub use upgradeability::upgradeable;
